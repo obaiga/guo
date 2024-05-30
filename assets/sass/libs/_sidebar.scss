@@ -5,7 +5,9 @@
 ///
 
 /* Sidebar */
-
+@mixin padding($top, $right, $bottom: $top, $left: $right) {
+	padding: $top $right $bottom $left;
+  }
 	#sidebar {
 		@include padding(2.5em, 2.5em);
 		background: _palette(bg);
