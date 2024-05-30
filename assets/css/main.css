@@ -2122,7 +2122,7 @@ input[type=button]:disabled,
   text-align: right;
   top: 0;
   width: 35%;
-  overflow-y: auto; /* Enable vertical scrolling, added by obaiga */
+  overflow-y: scroll; /* Enable vertical scrolling, added by obaiga */
 }
 #header > * {
   -moz-flex-shrink: 0;
