@@ -1086,7 +1086,7 @@ $size-header-pad: 4em;
 		text-align: right;
 		top: 0;
 		width: $size-header-width;
-
+		overflow-y: auto;   				/* Enable vertical scrolling, added by obaiga */
 		> * {
 			@include vendor('flex-shrink', '0');
 			width: 100%;
